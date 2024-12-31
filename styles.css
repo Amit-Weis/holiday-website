@@ -1,0 +1,185 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and Fonts */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f8ff;
+  color: #333;
+  line-height: 1.6;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  color: #004d00;
+  text-align: center;
+}
+
+p {
+  color: #555;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Header */
+header {
+  background-color: #008c45;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+header .logo h1 {
+  font-size: 2.5rem;
+}
+
+header .logo p {
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+/* Hero Section */
+.hero {
+  background-size: cover;
+  background-position: center;
+  padding: 5rem 0;
+  text-align: center;
+  color: white;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero button:hover {
+  background-color: #d84f3c;
+}
+
+/* About Section */
+.about {
+  padding: 3rem 2rem;
+  background-color: #f5f5f5;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
+
+/* Gnome Denial Section */
+.gnome-denial {
+  background-color: #e7f7f5;
+  padding: 3rem 2rem;
+}
+
+.gnome-denial h3 {
+  font-size: 2rem;
+  color: #c0392b;
+}
+
+.gnome-denial p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
+
+/* Footer */
+footer {
+  background-color: #008c45;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+/* button */
+
+body,
+button {
+  font: 1em/1.5 "Hind", sans-serif;
+  outline: none;
+  border: none;
+}
+button {
+  background: #255ff4;
+  border-radius: 0;
+  color: #fff;
+  cursor: pointer;
+  margin: auto;
+  padding: 0.5em 1em;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  outline: none;
+  border: none;
+}
+button:focus,
+button:hover {
+  background: #0b46da;
+  outline: none;
+  border: none;
+}
+button:focus {
+  outline: transparent;
+  outline: none;
+  border: none;
+}
+button::-moz-focus-inner {
+  border: 0;
+  outline: none;
+  border: none;
+}
+button:active {
+  transform: translateY(0.1em);
+  outline: none;
+  border: none;
+}
+.exploding,
+.exploding:focus,
+.exploding:hover {
+  background: transparent;
+  outline: none;
+  color: transparent;
+  border: none;
+}
+.exploding {
+  pointer-events: none;
+  position: relative;
+  will-change: transform;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  outline: none;
+  user-select: none;
+  border: none;
+}
+.particle {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.particle--debris {
+  background: #255ff4;
+}
+.particle--fire {
+  border-radius: 50%;
+}
